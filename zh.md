@@ -29,7 +29,7 @@ Tartalom:
 <details>
 <summary>Szabályok megjelenítése</summary>
 
-- A zárthelyi megoldására **180 perc** áll rendelkezésre, amely a kidolgozás mellett **magába foglalja** a kötelező nyilatkozat értelmezésére és kitöltésére, a feladatok elolvasására, az anyagok letöltésére, összecsomagolására és feltöltésére szánt időt is.
+- A zárthelyi megoldására **150 perc** áll rendelkezésre, amely a kidolgozás mellett **magába foglalja** a kötelező nyilatkozat értelmezésére és kitöltésére, a feladatok elolvasására, az anyagok letöltésére, összecsomagolására és feltöltésére szánt időt is.
 - A kidolgozást a ZH rendszeren keresztül kell beadni egyetlen **.zip** állományként. **A rendszer pontban XX:YY-kor lezár, ezután nincs lehetőség beadásra!**
 - A `vendor` és `node_modules` (ha létezik) könyvtár beadása **TILOS!**
 - A megfelelően kitöltött `STATEMENT.md` (nyilatkozat) nélküli megoldásokat **nem értékeljük**.
