@@ -8,15 +8,6 @@
         "framework"
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://webprogramozas.inf.elte.hu/satis-poc"
-        },
-        {
-            "packagist.org": false
-        }
-    ],
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",

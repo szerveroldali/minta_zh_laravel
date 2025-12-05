@@ -1,28 +1,4 @@
-# Szerveroldali webprogramozás - API zárthelyi minta
-
-Tartalom:
-
-- [Szerveroldali webprogramozás - API zárthelyi minta](#szerveroldali-webprogramozás---api-zárthelyi-minta)
-  - [Tudnivalók](#tudnivalók)
-  - [Feladatok](#feladatok)
-    - [Adatbázis](#adatbázis)
-    - [I. rész: REST API (30 pont, min. 12 pont elérése szükséges!)](#i-rész-rest-api-30-pont-min-12-pont-elérése-szükséges)
-      - [1. feladat: `GET /locations` (2 pont)](#1-feladat-get-locations-2-pont)
-      - [2. feladat: `GET /locations/:id` (4 pont)](#2-feladat-get-locationsid-4-pont)
-      - [3. feladat: `POST /locations` (4 pont)](#3-feladat-post-locations-4-pont)
-      - [4. feladat: `DELETE /locations/:id` (4 pont)](#4-feladat-delete-locationsid-4-pont)
-      - [5. feladat: `POST /login` (4 pont)](#5-feladat-post-login-4-pont)
-      - [6. feladat: `GET /local-weather-log` (6 pont)](#6-feladat-get-local-weather-log-6-pont)
-      - [7. feladat: `POST /insert-many` (6 pont)](#7-feladat-post-insert-many-6-pont)
-    - [II. rész: GraphQL (20 pont, min. 8 pont elérése szükséges!)](#ii-rész-graphql-20-pont-min-8-pont-elérése-szükséges)
-      - [8. feladat: `Query.locations` és `Query.weather` (2 pont)](#8-feladat-querylocations-és-queryweather-2-pont)
-      - [9. feladat: `Query.location` (1 pont)](#9-feladat-querylocation-1-pont)
-      - [10. feladat: `Weather.location` (1 pont)](#10-feladat-weatherlocation-1-pont)
-      - [11. feladat: `Mutation.createWeather` (3 pont)](#11-feladat-mutationcreateweather-3-pont)
-      - [12. feladat: `Weather.warnings` (2 pont)](#12-feladat-weatherwarnings-2-pont)
-      - [13. feladat: `Location.currentTemp` (3 pont)](#13-feladat-locationcurrenttemp-3-pont)
-      - [14. feladat: `Mutation.setPublic` (3 pont)](#14-feladat-mutationsetpublic-3-pont)
-      - [15. feladat: `Query.statistics` (5 pont)](#15-feladat-querystatistics-5-pont)
+# Szerveroldali webprogramozás - API zárthelyi minta 1.
 
 ## Tudnivalók
 
@@ -430,7 +406,7 @@ Mintaválasz:
 
 #### 11. feladat: `Mutation.createWeather` (3 pont)
 
-Új időjárásmérési adat felvétele. Siker esetén visszaadja a létrejött bejegyzést, különben `null` értéket kap.
+Új időjárásmérési adat felvétele. Siker esetén visszaadja a létrejött bejegyzést, különben `null` értéket kap és hibát dob.
 
 A bemenő adatoknak adj meg a sémában egy `CreateWeatherInput` definiciót, amely a modellben tárolt mezőket várja az automatikusan kitöltődő `id`, `created_at` és `updated_at_` kivételével!
 
